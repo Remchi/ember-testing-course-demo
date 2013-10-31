@@ -21,5 +21,3 @@
 
 // for more details see: http://emberjs.com/guides/application/
 EmberApp = Ember.Application.create();
-
-//= require_tree .
