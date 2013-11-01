@@ -31,7 +31,10 @@ gem 'ember-rails'
 gem 'ember-source', '1.1.2'
 group :test, :development do
   gem 'konacha'
+  gem 'rspec-rails'
 end
+
+gem 'active_model_serializers'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
