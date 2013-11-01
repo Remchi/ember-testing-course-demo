@@ -32,6 +32,9 @@ gem 'ember-source', '1.1.2'
 group :test, :development do
   gem 'konacha'
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'selenium-webdriver'
 end
 
 gem 'active_model_serializers'
